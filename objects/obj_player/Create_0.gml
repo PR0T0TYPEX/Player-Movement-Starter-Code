@@ -28,8 +28,8 @@ walljumpdelay = 0;
 walljumpdelay_max = 35;
 
 slideresetdelay = 0;
-slideresetdelay_max = 60;
+slideresetdelay_max = 30;
 slidedelay = 0;
-slidedelay_max = 30;
-slidestuck_spd = 1;
+slidedelay_max = 15;
+slidestuck_spd = 2;
 slidestuck = false;
