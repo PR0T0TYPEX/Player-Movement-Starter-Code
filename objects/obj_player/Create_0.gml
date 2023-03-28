@@ -33,3 +33,7 @@ slidedelay = 0;
 slidedelay_max = 15;
 slidestuck_spd = 2;
 slidestuck = false;
+
+detained = false
+immunity = false
+normal_color = image_blend
