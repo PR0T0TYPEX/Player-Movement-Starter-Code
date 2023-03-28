@@ -66,7 +66,7 @@ if(_move == 0 && slidedelay == 0) { //normal friction with ground and air
 hsp = clamp(hsp, -max_walksp, max_walksp);
 
 //slide
-if (on_ground && !on_wall && key_slide && slideresetdelay == 0) {
+if (on_ground && !on_wall && key_slide && slideresetdelay == 0 && hsp != 0) {
 	slideresetdelay = slideresetdelay_max;
 	slidedelay = slidedelay_max;
 }

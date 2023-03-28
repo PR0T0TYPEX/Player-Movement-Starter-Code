@@ -15,5 +15,6 @@
     {"name":"ts_tiles","order":4,"path":"tilesets/ts_tiles/ts_tiles.yy",},
     {"name":"spr_player_run","order":3,"path":"sprites/spr_player_run/spr_player_run.yy",},
     {"name":"spr_enemy_run","order":2,"path":"sprites/spr_enemy_run/spr_enemy_run.yy",},
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
   ],
 }
