@@ -8,7 +8,13 @@ if (place_meeting(x + speed, y, obj_wall))
 	{
 		x += sign(speed);
 	}
-	speed *= -1;
+	if(!turning)
+	{
+		stored_speed = speed
+		speed = 0
+		alarm[2] = 1
+		alarm[0] = room_speed
+	}	
 }
 
 //Animation

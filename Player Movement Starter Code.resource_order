@@ -13,9 +13,11 @@
     {"name":"obj_shooting_enemy","order":3,"path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},
     {"name":"spr_enemy_jump","order":1,"path":"sprites/spr_enemy_jump/spr_enemy_jump.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"spr_bullet","order":3,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"ts_tiles","order":4,"path":"tilesets/ts_tiles/ts_tiles.yy",},
     {"name":"spr_player_run","order":3,"path":"sprites/spr_player_run/spr_player_run.yy",},
     {"name":"spr_enemy_run","order":2,"path":"sprites/spr_enemy_run/spr_enemy_run.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_bullet","order":4,"path":"objects/obj_bullet/obj_bullet.yy",},
   ],
 }
