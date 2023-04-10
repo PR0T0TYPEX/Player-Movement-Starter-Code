@@ -2,6 +2,11 @@
 
 //Get player inputs
 
+if(!immunity)
+{
+	normal_color = image_blend
+}
+
 if(!detained)
 {
 	key_left = keyboard_check(vk_left);

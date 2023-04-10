@@ -37,3 +37,7 @@ slidestuck = false;
 detained = false
 immunity = false
 normal_color = image_blend
+
+image_blend += c_red
+image_blend += c_green
+image_blend += c_blue
