@@ -1,5 +1,7 @@
 /// @description Establish key vars
 
+//instance_exists()
+
 hsp = 0;
 hsp_wjump = 9;
 vsp = 0;
