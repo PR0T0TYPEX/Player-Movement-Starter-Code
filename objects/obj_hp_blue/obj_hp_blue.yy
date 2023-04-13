@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hp_green",
-    "path": "sprites/spr_hp_green/spr_hp_green.yy",
+    "name": "spr_hp_blue",
+    "path": "sprites/spr_hp_blue/spr_hp_blue.yy",
   },
   "spriteMaskId": null,
   "visible": true,

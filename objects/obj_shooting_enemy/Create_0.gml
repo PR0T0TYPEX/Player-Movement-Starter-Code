@@ -5,6 +5,6 @@ stored_speed = speed
 
 vsp = 0
 
-image_blend = c_red
+image_blend = c_blue
 
 turning = false

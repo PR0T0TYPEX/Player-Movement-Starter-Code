@@ -1,6 +1,5 @@
 /// @description core enemy logic
 
-
 //Horizontal collision
 if (place_meeting(x + speed, y, obj_wall))
 {
