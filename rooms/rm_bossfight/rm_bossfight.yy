@@ -9,7 +9,6 @@
   "instanceCreationOrder": [
     {"name":"inst_2782699C","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_10625EC","path":"rooms/rm_bossfight/rm_bossfight.yy",},
-    {"name":"inst_1C3B9549","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_261E01AC","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_2790AA4","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_60A8AD24","path":"rooms/rm_bossfight/rm_bossfight.yy",},
@@ -31,6 +30,7 @@
     {"name":"inst_6C39A4DF","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_34159368","path":"rooms/rm_bossfight/rm_bossfight.yy",},
     {"name":"inst_32ECEFFD","path":"rooms/rm_bossfight/rm_bossfight.yy",},
+    {"name":"inst_1C3B9549","path":"rooms/rm_bossfight/rm_bossfight.yy",},
   ],
   "isDnd": false,
   "layers": [

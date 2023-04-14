@@ -2,6 +2,15 @@
 
 //Get player inputs
 
+red = instance_exists(obj_hp_red)
+green = instance_exists(obj_hp_green)
+blue = instance_exists(obj_hp_blue)
+
+if(!red and !green and !blue)
+{
+	instance_destroy()
+}
+
 if(!immunity)
 {
 	normal_color = image_blend
