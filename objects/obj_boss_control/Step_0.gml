@@ -7,10 +7,32 @@ blue = instance_exists(obj_blue) and in_control == 3
 if(red)
 {
 	obj_tint.image_blend = c_red
-	if(!set_alarm)
+	with(obj_red)
 	{
-		alarm[0] = 300
-		set_alarm = true
+		if point_distance(x, y, 448, 176) > 1
+		{
+		    move_towards_point(448, 176, 1)
+		}
+		else
+		{
+			speed = 0
+		}
+	}
+	if(!set_alarm and !instance_exists(obj_enemy) and !instance_exists(obj_shooting_enemy))
+	{
+		with(obj_red)
+		{
+			if point_distance(x, y, 384, 96) > 1
+			{
+			    move_towards_point(384, 96, 1)
+			}
+			else
+			{
+				speed = 0
+			}
+		}
+		alarm[0] = 60
+		set_alarm = true	
 	}
 }
 else if(green)

@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings": [
     {"name":"boss","order":5,"path":"folders/Objects/boss.yy",},
+    {"name":"player","order":6,"path":"folders/Objects/player.yy",},
     {"name":"boss","order":12,"path":"folders/Sprites/boss.yy",},
     {"name":"enemy","order":11,"path":"folders/Sprites/enemy.yy",},
     {"name":"player","order":10,"path":"folders/Sprites/player.yy",},
-    {"name":"player","order":6,"path":"folders/Objects/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
