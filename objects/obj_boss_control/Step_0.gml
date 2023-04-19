@@ -31,7 +31,7 @@ if(red)
 				speed = 0
 			}
 		}
-		alarm[0] = 60
+		alarm[0] = 120
 		set_alarm = true	
 	}
 }
@@ -55,5 +55,11 @@ else if(blue)
 }
 else
 {
-	in_control = irandom_range(1,3)
+	obj_tint.image_blend = c_white
+	if(!set_alarm)
+	{
+		alarm[0] = 300
+		set_alarm = true
+	}
 }
+
