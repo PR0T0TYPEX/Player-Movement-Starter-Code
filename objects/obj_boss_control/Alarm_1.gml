@@ -6,7 +6,11 @@ if(red)
 	obj_tint.image_blend = c_red
 	if(obj_red.image_index = 0)
 	{
-		attack = 0//choose(0, 1)
+		if(count == 0)
+		{
+			attack = 1//choose(0, 1)
+		}
+		else attack = 1
 		if(attack == 0)
 		{
 			enemy_type = choose(0, 1)
@@ -23,7 +27,7 @@ if(red)
 				}
 				with(enemy1)
 				{
-					image_blend = c_red
+					image_blend = obj_tint.image_blend
 				}
 				enemy_pos2 = choose(0, 1)
 				if(enemy_pos2 == 0)
@@ -36,7 +40,7 @@ if(red)
 				}
 				with(enemy2)
 				{
-					image_blend = c_red
+					image_blend = obj_tint.image_blend
 				}
 			}
 			else
@@ -52,7 +56,7 @@ if(red)
 				}
 				with(enemy1)
 				{
-					image_blend = c_red
+					image_blend = obj_tint.image_blend
 				}
 				enemy_pos2 = choose(0, 1)
 				if(enemy_pos2 == 0)
@@ -65,13 +69,19 @@ if(red)
 				}
 				with(enemy2)
 				{
-					image_blend = c_red
+					image_blend = obj_tint.image_blend
 				}
 			}
 		}
 		else
 		{
-					
+			lazer_type = 0//choose(0, 1)
+			if(count != 3)
+			{
+				alarm[2] = 1
+				alarm[1] = room_speed * 3
+				count += 1
+			}
 		}
 	}
 }

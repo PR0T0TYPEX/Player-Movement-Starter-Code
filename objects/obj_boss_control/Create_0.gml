@@ -6,3 +6,4 @@ red = false
 green = false
 blue = false
 set_alarm = false
+count = 0
