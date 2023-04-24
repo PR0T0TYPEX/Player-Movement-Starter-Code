@@ -31,7 +31,7 @@ if(red)
 				speed = 0
 			}
 		}
-		alarm[0] = 120
+		alarm[0] = 240
 		set_alarm = true	
 	}
 }

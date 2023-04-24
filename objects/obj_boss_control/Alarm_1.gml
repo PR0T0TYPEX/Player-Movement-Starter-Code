@@ -82,6 +82,11 @@ if(red)
 				alarm[1] = room_speed * 3
 				count += 1
 			}
+			else
+			{
+				count = 0
+				instance_create_layer(448, 258, "Instances", obj_vlazer)
+			}
 		}
 	}
 }
