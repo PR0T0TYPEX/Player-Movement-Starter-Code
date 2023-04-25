@@ -8,10 +8,6 @@ if(other.image_alpha == 1)
 	}
 	else
 	{
-		if(instance_exists(obj_hp_red))
-		{
-			instance_destroy(obj_hp_red)
-		}
 		instance_destroy()
 	}
 }

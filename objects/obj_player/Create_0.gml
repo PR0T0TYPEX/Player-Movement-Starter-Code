@@ -40,10 +40,6 @@ detained = false
 immunity = false
 normal_color = image_blend
 
-image_blend += c_red
-image_blend += c_green
-image_blend += c_blue
+lives = 3
 
-red = instance_exists(obj_hp_red)
-green = instance_exists(obj_hp_green)
-blue = instance_exists(obj_hp_blue)
+extra = 1

@@ -4,20 +4,17 @@ extra = 1
 
 if(!detained and !immunity and !slidedelay > 0)
 {
-	if(other.image_blend = c_red and instance_exists(obj_hp_red))
+	if(instance_exists(obj_hp_1))
 	{
-		instance_destroy(obj_hp_red)
-		image_blend -= c_red
+		instance_destroy(obj_hp_1)
 	}
-	else if(other.image_blend = c_green and instance_exists(obj_hp_green))
+	else if(instance_exists(obj_hp_2))
 	{
-		instance_destroy(obj_hp_green)
-		image_blend -= c_green
+		instance_destroy(obj_hp_2)
 	}
-	else if(other.image_blend = c_blue and instance_exists(obj_hp_blue))
+	else if(instance_exists(obj_hp_3))
 	{
-		instance_destroy(obj_hp_blue)
-		image_blend -= c_blue
+		instance_destroy(obj_hp_3)
 	}
 	else
 	{

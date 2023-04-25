@@ -2,13 +2,13 @@
 
 //Get player inputs
 
-red = instance_exists(obj_hp_red)
-green = instance_exists(obj_hp_green)
-blue = instance_exists(obj_hp_blue)
+health1 = instance_exists(obj_hp_1)
+health2 = instance_exists(obj_hp_2)
+health3 = instance_exists(obj_hp_3)
 
-if(!red and !green and !blue)
+if(!health1 and !health2 and !health3)
 {
-	instance_destroy()
+	//instance_destroy()
 }
 
 if(!immunity)

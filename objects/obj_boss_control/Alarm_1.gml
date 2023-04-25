@@ -85,7 +85,11 @@ if(red)
 			else
 			{
 				count = 0
-				instance_create_layer(448, 258, "Instances", obj_vlazer)
+				var lazer = instance_create_layer(448, 258, "Instances", obj_vlazer)
+				with(lazer)
+				{
+					image_blend = obj_tint.image_blend
+				}
 			}
 		}
 	}

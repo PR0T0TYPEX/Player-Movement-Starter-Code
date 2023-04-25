@@ -22,9 +22,9 @@ if(red)
 	{
 		with(obj_red)
 		{
-			if point_distance(x, y, 384, 96) > 1
+			if point_distance(x, y, 448, 96) > 1
 			{
-			    move_towards_point(384, 96, 1)
+			    move_towards_point(448, 96, 1)
 			}
 			else
 			{

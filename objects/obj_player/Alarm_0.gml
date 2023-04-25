@@ -1,5 +1,6 @@
 /// @description re-enables player movement
 
+show_debug_message("alarm 0")
 detained = false
 image_alpha *= 2
 immunity = true
