@@ -1,6 +1,5 @@
 /// @description enemy collision
 
-extra = 1
 
 if(slidedelay > 0)
 {
@@ -8,24 +7,8 @@ if(slidedelay > 0)
 }
 else if(!detained and !immunity)
 {
-	if(instance_exists(obj_hp_1))
-	{
-		instance_destroy(obj_hp_1)
-	}
-	else if(instance_exists(obj_hp_2))
-	{
-		instance_destroy(obj_hp_2)
-	}
-	else if(instance_exists(obj_hp_3))
-	{
-		instance_destroy(obj_hp_3)
-	}
-	else
-	{
-		extra = 2
-	}
+	lives -= 1
 	image_alpha /= 2
 	detained = true
-	alarm[0] = room_speed * 2 * extra
-	extra = 1
+	alarm[0] = room_speed * 2
 }

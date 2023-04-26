@@ -2,13 +2,9 @@
 
 //Get player inputs
 
-health1 = instance_exists(obj_hp_1)
-health2 = instance_exists(obj_hp_2)
-health3 = instance_exists(obj_hp_3)
-
-if(!health1 and !health2 and !health3)
+if(lives <= 0)
 {
-	//instance_destroy()
+	instance_destroy()
 }
 
 if(!immunity)

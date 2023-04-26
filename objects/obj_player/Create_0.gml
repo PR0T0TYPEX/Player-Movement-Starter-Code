@@ -1,6 +1,5 @@
 /// @description Establish key vars
 
-//instance_exists()
 
 hsp = 0;
 hsp_wjump = 9;
@@ -41,5 +40,3 @@ immunity = false
 normal_color = image_blend
 
 lives = 3
-
-extra = 1
